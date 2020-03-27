@@ -8,8 +8,9 @@ def batch_badge_creator(names)
     badge << "Hello, #{name}."
   end
     return badge
+  end
     
-    def assing_rooms(names)
+    def assign_rooms(names)
       count = 1 
       rooms = []
       name. each do |name|
