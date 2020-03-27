@@ -22,8 +22,11 @@ def batch_badge_creator(names)
     
     def printer(names)
       new_badge =  batch_badge_creator(names)
+      new_badge.each do |shabi|
+        puts "#{shabi}"
+      end
       new_rooms = assign_rooms(names)
-    end
+    puts ""
     
       
     
