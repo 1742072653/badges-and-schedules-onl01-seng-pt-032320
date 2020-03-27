@@ -29,6 +29,6 @@ def batch_badge_creator(names)
       new_rooms.each do |shabi|
         puts "#{shabi}"
     end
-    
+  end
       
     
