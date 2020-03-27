@@ -14,7 +14,7 @@ def batch_badge_creator(names)
       count = 1 
       rooms = []
       name. each do |name|
-        rooms <<"Hello, #{name}! you'll be assign room #{count}."
+        rooms << "Hello, #{name}! you'll be assign room #{count}."
         count +=1 
       return rooms
     end
