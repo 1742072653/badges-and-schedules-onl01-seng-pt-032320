@@ -13,4 +13,4 @@ def batch_badge_creator(names)
       count = 1 
       rooms = []
       name. each do |name|
-        rooms <<
+        rooms <<"Hello, #{name},"
